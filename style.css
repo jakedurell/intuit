@@ -4,6 +4,8 @@ body {
     justify-content: center;
     font-family: Nunito;
     color: rgb(76,76,76);
+    font-weight:300;
+    text-align: center;
 }
 .header {
     display: block;
@@ -12,8 +14,8 @@ body {
 }
 
 #intuitImg {
-    width: 118px;
-    height: 35px;
+    width: 160px;
+    /* height: 35px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -46,7 +48,9 @@ body {
     background-color:white;
     margin-top: 0px;
     text-align: center;
-    display:table-cell;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 h1 {
@@ -128,20 +132,31 @@ b {
 hr {
     width: 75%;
 }
+
 a {
     text-decoration: none;
     }
 
+#topLog{
+    justify-content: flex-end;
+}
+
 #captchaBox{
     width:100%;
-    bottom: 0;
-    left: 0;
-    bottom: 0px;
     height: 40px;
-    background-color: aqua;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    vertical-align: bottom;
+    background-color: #ECEEF1;
+    margin-top:auto;
+    font-size: 10px;
+    align-self:flex-end;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+
+}
+
+#legalStuff {
+    text-align: center;
+    margin-top: 20px;
 }
 
 
